@@ -1,0 +1,91 @@
+h1 {
+    background-color: lightgrey;
+    padding: 30px;
+    color: white;
+    width: 270px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+}
+
+p {
+    background-color: lightblue;
+    color: white;
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    text-align:left;
+    font-size: 18.5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+.container {
+    width: 600px;
+    height: 400px;
+}
+#random {
+    background-color: darkblue;
+    padding: 20px;
+    width: 250px;
+    height: 100px;
+    display: block;
+    float: left;
+} 
+
+#score {
+    background-color: lightgrey;
+    padding: 20px;
+    width: 130px;
+    height: 100px;
+    margin-left: 300px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+
+.button0 {
+    background-color: lightblue;
+    width: 75px;
+    height: 75px;
+}
+
+.button1 {
+    background-color: lightblue;
+    width: 75px;
+    height: 75px;
+
+}
+
+.button1 {
+    background-color: lightblue;
+    width: 75px;
+    height: 75px;
+}
+
+.button2 {
+    background-color: lightblue;
+    width: 75px;
+    height: 75px;
+}
+
+.button3 {
+    background-color: lightblue;
+    width: 75px;
+    height: 75px;
+}
+
+#usertotal {
+    background-color: darkblue;
+    padding: 20px;
+    width: 270px;
+    height: 90px;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
