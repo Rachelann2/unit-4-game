@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Fredoka+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <style>
     body {
@@ -55,13 +56,22 @@
     <div class="container3">
 
         <span id="blueC"></span>
-        <img type="button" id="bl" src="./assets/images/blue.jpeg" alt="blue crystal" height="86rem" width="86rem">
-        <span id="pinkC"></span>
-        <img type="button" id="pi" src="assets/images/pink.jpeg" alt="Pink crystal" height="86rem" width="86rem">
-        <span id="opalC"></span>
-        <img type="button" id="op" src="assets/images/opal.jpg" alt="Opal crystal" height="86rem" width="86rem">
-        <span id="redC"></span>
-        <img type="button" id="re" src="assets/images/red.jpeg" alt="red crystal" height="86rem" width="86rem">
+        <button><img type="button" id="bl" value="3" src="./assets/images/blue.jpeg" alt="blue crystal" height="86rem"
+                width="86rem">
+        </button>
+        <button> <span id="pinkC"></span>
+            <img type="button" id="pi" value="5" src="assets/images/pink.jpeg" alt="Pink crystal" height="86rem"
+                width="86rem">
+        </button>
+        <button>
+            <span id="opalC"></span>
+            <img type="button" id="op" value="7" src="assets/images/opal.jpg" alt="Opal crystal" height="86rem"
+                width="86rem">
+        </button>
+        <button>
+            <span id="redC"></span>
+            <img type="button" id="re" value="1" src="assets/images/red.jpeg" alt="red crystal" height="86rem"
+                width="86rem">
         </button>
     </div>
 
@@ -69,6 +79,8 @@
         <h4 id="usertotal">Your total score is: </h4>
         <div id="userscore"></div>
     </div>
+    <script src="assets/javascript/game.js" text="javascript"></script>
+
 </body>
 
 </html>
